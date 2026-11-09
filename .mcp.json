@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verdo": {
+      "type": "http",
+      "url": "https://verdo.ink/api/mcp"
+    }
+  }
+}

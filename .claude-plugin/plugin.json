@@ -1,0 +1,23 @@
+{
+  "name": "verdo-team-decisions",
+  "version": "1.1.0",
+  "license": "MIT",
+  "description": "Propose team decisions in Verdo and follow them. The agent proposes, a person decides: no tool invites people, sends notifications, or closes a decision.",
+  "author": {
+    "name": "Aethon Digital"
+  },
+  "homepage": "https://verdo.ink",
+  "repository": "https://github.com/aethon-digital/SETTLE-APP/tree/main/plugins/verdo-plugin",
+  "supportUrl": "https://verdo.ink/support",
+  "privacyPolicyUrl": "https://verdo.ink/privacy",
+  "termsOfServiceUrl": "https://verdo.ink/terms",
+  "documentationUrl": "https://verdo.ink/docs/api",
+  "userConfig": {
+    "verdo_api_key": {
+      "type": "string",
+      "title": "Verdo API Key",
+      "description": "Your Verdo workspace API key. Get one at verdo.ink/dashboard/settings > API Keys > Create.",
+      "sensitive": true
+    }
+  }
+}
